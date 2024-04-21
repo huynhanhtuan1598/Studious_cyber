@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+/* Top header */
+.top-header {
+  background: #0d369f;
+  padding: 14px 15px;
+}
+
+.top-header .top-header-infor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header .headerleft ul,
+.top-header .headerright ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-header .headerleft ul li,
+.top-header .headerright ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.top-header .headerleft ul li:last-child,
+.top-header .headerright ul li:last-child {
+  margin-right: 0;
+}
+.top-header .headerleft ul li i,
+.top-header .headerright ul li i {
+  color: white;
+}
+
+.top-header .headerleft ul li a,
+.top-header .headerright ul li a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.top-header .headerleft ul li a:hover,
+.top-header .headerright ul li a:hover {
+  color: var(--secondary-color);
+}
+
+.top-header .headerleft ul li i,
+.top-header .headerright ul li i {
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 680px) {
+  .top-header .headerleft,
+  .top-header .headerright {
+    text-align: center;
+  }
+
+  .top-header .headerleft ul,
+  .top-header .headerright ul {
+    display: block;
+  }
+
+  .top-header .headerleft ul li,
+  .top-header .headerright ul li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-items: center;
+  flex-direction: row;
+} */
+
+.navbar {
+  padding: 15px;
+}
+
+.navbar .navbar-brand {
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  color: var(--logo-color);
+  font-weight: 600;
+}
+
+.navbar-collapse {
+  justify-content: right;
+}
+
+.navbar-collapse li {
+  padding: 0 15px;
+}
+
+.navbar-collapse a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+
+.navbar-collapse a:hover {
+  color: #ff6e65;
+}
+
+.navbar .navbar-brand img {
+  padding: 0 10px;
+}
+
+.search-popup {
+  border-radius: 20px;
+  /* border-style: 1px solid; */
+  padding: 10px 35px 10px 20px;
+}
+
+.search-btn {
+  margin-left: -60px;
+}
+
+.moon {
+  padding: 14px 20px;
+}
