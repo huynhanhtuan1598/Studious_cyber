@@ -860,6 +860,57 @@ header .header_nav .navbar .nav_search .btn:hover {
   background-color: #0d369f;
 }
 
+.contact {
+  /* padding: 100px 0; */
+}
+
+.contact .contact_width {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact .big_title {
+  margin-bottom: 50px;
+}
+
+.contact .contact_left img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.contact .contact_right input,
+.contact .contact_right textarea {
+  border-radius: 3px;
+  color: #666;
+  width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.contact .contact_right input:focus-visible,
+.contact .contact_right textarea:focus-visible {
+  border: 1px solid #ff6e65;
+  outline: unset;
+}
+
+.contact .contact_right button {
+  background-color: #ff6e65;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  padding: 15px 30px;
+  font-weight: 600;
+  border: none;
+}
+
+.contact .contact_right button:hover {
+  background-color: #0d369f;
+}
+
+/* 404  */
+
 /* FOOTER CSS */
 footer {
   background-color: #060f1f;
