@@ -8,10 +8,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  /* overflow: hidden; */
-}
-
 .big_title {
   text-align: center;
   position: relative;
@@ -842,7 +838,7 @@ header .header_nav .navbar .nav_search .btn:hover {
   margin-top: 41px;
 }
 
-.content .content-tex .title-style {
+.content .content-text .title-style {
   font-size: 35px;
   font-weight: 600;
   line-height: 45px;
