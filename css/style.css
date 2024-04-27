@@ -611,7 +611,7 @@ header .header_nav .navbar .nav_search .btn:hover {
 }
 
 .number .number_content {
-  margin-top: 100px;
+  margin-top: -100px;
 }
 
 .number .number_content .number_item {
@@ -1086,6 +1086,231 @@ footer .footer_bottom a {
 
 footer .footer_bottom a:hover {
   text-decoration: underline;
+}
+
+/* About Us  */
+.inner-banner {
+  background-image: url(../image/bg4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 120px;
+}
+
+.text-white {
+  color: #fff !important;
+  margin-left: 32px;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.breadcrumb-path a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #d4d4d4;
+  text-decoration: none;
+}
+
+.breadcrumbs-path {
+  text-align: center;
+  display: inline-block;
+}
+
+/* VIDEO  */
+/* video section */
+h3.title-big {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+  color: black;
+}
+
+.video-section ul.w3l-right-book li span {
+  font-size: 12px;
+  margin-right: 10px;
+  opacity: 0.4;
+}
+
+.video-section .play-view {
+  left: 0;
+  right: 0;
+  top: calc(50% - 40px);
+}
+
+.video-section span.video-play-icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  font-size: 35px;
+  padding-left: 10px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  -webkit-animation: ripple 1s linear infinite;
+  animation: ripple 1s linear infinite;
+  color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #fff;
+  border: 4px solid #fff;
+  background: rgb(12 12 12 / 22%);
+}
+
+.video-section span.video-play-icon:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.left-wthree-img-video img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-right-faq ul li i {
+  color: var(--secondary-color);
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.about-right-faq ul li {
+  display: flex;
+  align-items: center;
+}
+
+.mfp-hide {
+  display: none !important;
+}
+.modal-fullscreen .modal-body {
+  background-color: black;
+}
+
+.modal-body iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1600px) {
+  h3.title-big {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  h3.title-big {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  h3.title-big {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 375px) {
+  h3.title-big {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+
+.number .number-us {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about {
+  background-color: whitesmoke;
+}
+
+.about .about-mr {
+  margin-top: -142px;
+}
+
+.about .area-box {
+  padding: 140px 60px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid var(--border-color-light);
+}
+
+.about .area-box .icon-1 {
+  color: #0abf53;
+  background: rgb(10 191 83 / 10%);
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+}
+
+.about .area-box .icon-2 {
+  color: #ffc947;
+  background: #fff3d7;
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+}
+
+.about .area-box .icon-3 {
+  color: #ff4f81;
+  background: #ffe5ec;
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+}
+
+/* list about  */
+
+.list-content .title-style {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+  color: #000;
+}
+
+.list-content .list-about-2 {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.list-content .list-about-2 i {
+  color: #ff6e65;
+}
+
+.list-content .list-img img {
+  border-radius: 10px;
 }
 
 /* BACKTOTOP */
