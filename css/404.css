@@ -103,6 +103,12 @@ body {
   margin-right: 5px;
 }
 
+/* back to home */
+.banner .banner_content .back-to-home a {
+  text-decoration: none;
+  color: white;
+}
+
 /* FOOTER CSS */
 footer {
   background-color: #060f1f;
