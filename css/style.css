@@ -113,7 +113,7 @@ html {
   align-items: center;
   background-color: #0d369f;
   color: white;
-  padding: 10px 0;
+  padding: 14px 0;
 }
 .top_header .header_top ul {
   display: flex;
@@ -132,9 +132,9 @@ html {
   text-decoration: none;
   transition: all 0.5s;
 }
-/* .top_header .header_top a:hover {
+.top_header .header_top a:hover {
   color: #ff6e65;
-} */
+}
 
 .top_header .header_top .top_info i {
   margin-right: 7px;
@@ -244,6 +244,24 @@ header .navbar .navbar-nav .dropdown-menu {
   transform: translateX(-50px);
   box-shadow: rgb(12 12 12 / 6%) 0px 1px 20px 0px;
   border: 1px solid transparent;
+}
+
+/* THÊM MỚI MŨI TÊN*/
+
+header .navbar .navbar-nav .dropdown-menu::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border: 1px solid transparent;
+  display: block;
+  border-right: none;
+  border-bottom: none;
+  transform: translateX(-50%) rotateZ(45deg);
+  position: absolute;
+  top: -7px;
+  left: 49%;
+  z-index: 1001;
 }
 
 header .header_nav .navbar .navbar-nav .dropdown-item {
@@ -513,6 +531,7 @@ header .header_nav .navbar .nav_search .btn:hover {
 .welcome {
   background-color: white;
   /* padding: 0 0 150px 0; */
+  padding-top: unset !important;
 }
 
 .welcome .row {
@@ -525,7 +544,7 @@ header .header_nav .navbar .nav_search .btn:hover {
 
 .welcome .welcome_top {
   position: relative;
-  margin-top: -80px;
+  margin-top: -4em;
   /* transform: translate(-50%, -40%);
   left: 50%; */
   padding: auto;
@@ -554,6 +573,9 @@ header .header_nav .navbar .nav_search .btn:hover {
 
 .welcome .welcome_top .welcome_subject.tab2 {
   background-color: #ffc949;
+}
+.welcome .welcome_top .welcome_subject.tab2 i {
+  transform: skewX(-10deg);
 }
 
 .welcome .welcome_top .welcome_subject.tab3 {
@@ -601,6 +623,12 @@ header .header_nav .navbar .nav_search .btn:hover {
   font-weight: 600;
   color: #000;
   font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.welcome .welcome_content h3:hover {
+  color: #ff6e65;
 }
 
 .welcome .welcome_content p {
@@ -663,9 +691,9 @@ header .header_nav .navbar .nav_search .btn:hover {
 /* padding: 80px 0; */
 /* } */
 
-/* .number .number_content {
-  margin-top: -100px;
-} */
+.number .number_content {
+  margin-top: 100px;
+}
 
 .number .number_content .number_item {
   border-right: 1px solid #eee;
@@ -911,6 +939,7 @@ header .header_nav .navbar .nav_search .btn:hover {
 
 .btn-style-us:hover {
   background-color: #0d369f;
+  color: white;
 }
 
 .contact {
@@ -1156,7 +1185,9 @@ footer .footer_bottom a:hover {
   z-index: 1;
 }
 
-.container {
+/* XOÁ CONTAINER VÌ ẢNH HƯỞNG ĐẾN CÁC DESIGN KHÁC VÀ BOOTSTRAP ĐÃ CÓ SẴN CONTAINER */
+
+.content .container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -1372,6 +1403,10 @@ h3.title-big {
   position: fixed;
   bottom: 50px;
   right: 15px;
+  transition: all 0.5s;
+}
+.backtotop:hover {
+  opacity: 0.8;
 }
 
 .backtotop {
