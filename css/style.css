@@ -365,7 +365,9 @@ header .header_nav .navbar .nav_search .btn:hover {
   text-transform: capitalize;
   color: #d4d4d4;
 }
-
+.carousel h4{
+  padding-top: 120px;
+}
 .breadcrumb-path a {
   color: #d4d4d4;
   opacity: 0.8;
