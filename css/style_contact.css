@@ -58,7 +58,7 @@ header .navbar-brand {
   transition: all 0.5s;
 }
 header .navbar-brand:hover {
-  color: #ff9690;
+  color:  #FF7067;
 }
 header .nav-link {
   font-size: 16px;
@@ -67,10 +67,10 @@ header .nav-link {
   transition: all 0.5s;
 }
 header .nav-link:hover {
-  color: #ff9690;
+  color:  #FF7067;
 }
 header .active {
-  color: #ff9690 !important;
+  color:  #FF7067 !important;
 }
 header .navbar-nav {
   padding-right: 16px;
@@ -80,9 +80,12 @@ header .navbar-nav .nav-item {
 }
 header .dropdown-item {
   transition: all 0.5s;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
 }
 header .dropdown-item:hover {
-  color: #ff9690;
+  color:  #FF7067;
 }
 .search i {
   color: #0d369e;
@@ -141,7 +144,7 @@ header .dropdown-item:hover {
 }
 /* contact */
 .contact .contact_details .details-left i {
-  color: #ff9690;
+  color:  #FF7067;
   font-size: 20px;
 }
 .contact .contact_details .details-right h6 {
@@ -161,7 +164,7 @@ header .dropdown-item:hover {
   letter-spacing: 0.4px;
 }
 .contact .contact_details .details-right a:hover {
-  color: #ff9690;
+  color:  #FF7067;
 }
 .contact .contact_form .main_title {
   font-size: 40px;
@@ -192,7 +195,7 @@ header .dropdown-item:hover {
   margin: 0 auto;
 }
 .contact .contact_form .main_title span {
-  color: #ff9690;
+  color:  #FF7067;
 }
 .contact .contact_input {
   width: 100%;

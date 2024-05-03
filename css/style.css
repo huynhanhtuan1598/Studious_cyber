@@ -357,6 +357,25 @@ header .header_nav .navbar .nav_search .btn:hover {
   text-align: left;
 } */
 
+.breadcrumb-path {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #d4d4d4;
+}
+
+.breadcrumb-path a {
+  color: #d4d4d4;
+  opacity: 0.8;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.breadcrumb-path a:hover {
+  color: #fff;
+}
+
 .carousel .content .item .slider-info .banner-info .banner-info-bg h5 {
   font-size: 70px;
   line-height: 80px;
