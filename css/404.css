@@ -62,7 +62,7 @@ body {
 }
 
 .banner input {
-  padding: 20px 250px 20px 20px;
+  padding: 20px 60px 20px 20px;
   border-radius: 40px;
   background-color: white;
   border: none;
@@ -71,6 +71,12 @@ body {
   margin: auto;
   /* position: relative; */
 }
+
+/* ::placeholder {
+  width: 100%;
+  color: red;
+  padding-right: 1%;
+} */
 
 .banner input:focus-visible {
   outline-offset: unset;
