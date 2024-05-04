@@ -134,7 +134,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link " style="color:  #ff6e65;" aria-current="page" href="./index.html"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
                     >HOME</a
                   >
                 </li>
@@ -771,5 +774,22 @@
     <!-- BACKTOTOP -->
     <script src="./js/backtotop/assets/js/main.js"></script>
     <script src="./js/backtotop/assets/js/util.js"></script>
+
+    <!-- counterUp -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+      integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1000,
+        });
+      });
+    </script>
   </body>
 </html>

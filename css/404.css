@@ -67,6 +67,8 @@ body {
   background-color: white;
   border: none;
   text-align: left;
+  width: calc(100% - 40px);
+  margin: auto;
   /* position: relative; */
 }
 
@@ -79,7 +81,7 @@ body {
   color: #ff6e65;
   position: absolute;
   background-color: transparent;
-  right: 2%;
+  right: 10%;
   bottom: 5%;
   font-size: 1.2rem;
   padding: 20px;
